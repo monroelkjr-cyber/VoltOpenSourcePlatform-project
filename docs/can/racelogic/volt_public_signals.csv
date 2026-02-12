@@ -1,0 +1,15 @@
+name,can_id,units,start_bit,bit_length,offset,scale,max,min,signedness,endian,dlc
+Battery_Voltage,298,V,16,8,3,0.1,28.5,3,Unsigned,Motorola,8
+Tyre_Pressure_RR,1322,kPaG,16,8,0,4,1020,0,Unsigned,Motorola,8
+Tyre_Pressure_FR,1322,kPaG,24,8,0,4,1020,0,Unsigned,Motorola,8
+Tyre_Pressure_RL,1322,kPaG,32,8,0,4,1020,0,Unsigned,Motorola,8
+Tyre_Pressure_FL,1322,kPaG,40,8,0,4,1020,0,Unsigned,Motorola,8
+Steering_Angle,485,°,40,16,0,0.0625,2047.9375,-2048,Signed,Motorola,8
+Oil_Temperature,1233,°C,48,8,-40,1,215,-40,Unsigned,Motorola,8
+Oil_Pressure,1233,kPa,40,8,0,4,1020,0,Unsigned,Motorola,8
+Air_Temperature,1217,°C,32,8,-40,1,215,-40,Unsigned,Motorola,8
+Accelerator_Pedal_Position,977,%,48,8,0,0.392157,100.000035,0,Unsigned,Motorola,8
+Brake_Position,241,%,48,8,0,0.392157,100.000035,0,Unsigned,Motorola,4
+Engine_Speed,201,rpm,40,16,0,0.25,10000,0,Unsigned,Motorola,7
+Coolant_Temperature,1217,°C,40,8,-40,1,215,-40,Unsigned,Motorola,8
+Yaw_Rate,489,°/s,16,12,0,0.0625,127.9375,-128,Signed,Motorola,8
