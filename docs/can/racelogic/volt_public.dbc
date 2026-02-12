@@ -1,0 +1,67 @@
+VERSION ""
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: VOSP
+
+BO_ 201 MSG_201: 7 VOSP
+ SG_ Engine_Speed : 40|16@0+ (0.25,0.0) [0.0|10000.0] "rpm" Vector__XXX
+
+BO_ 241 MSG_241: 4 VOSP
+ SG_ Brake_Position : 48|8@0+ (0.392157,0.0) [0.0|100.000035] "%" Vector__XXX
+
+BO_ 298 MSG_298: 8 VOSP
+ SG_ Battery_Voltage : 16|8@0+ (0.1,3.0) [3.0|28.5] "V" Vector__XXX
+
+BO_ 485 MSG_485: 8 VOSP
+ SG_ Steering_Angle : 40|16@0- (0.0625,0.0) [-2048.0|2047.9375] "°" Vector__XXX
+
+BO_ 489 MSG_489: 8 VOSP
+ SG_ Yaw_Rate : 16|12@0- (0.0625,0.0) [-128.0|127.9375] "°/s" Vector__XXX
+
+BO_ 977 MSG_977: 8 VOSP
+ SG_ Accelerator_Pedal_Position : 48|8@0+ (0.392157,0.0) [0.0|100.000035] "%" Vector__XXX
+
+BO_ 1217 MSG_1217: 8 VOSP
+ SG_ Air_Temperature : 32|8@0+ (1.0,-40.0) [-40.0|215.0] "°C" Vector__XXX
+ SG_ Coolant_Temperature : 40|8@0+ (1.0,-40.0) [-40.0|215.0] "°C" Vector__XXX
+
+BO_ 1233 MSG_1233: 8 VOSP
+ SG_ Oil_Temperature : 48|8@0+ (1.0,-40.0) [-40.0|215.0] "°C" Vector__XXX
+ SG_ Oil_Pressure : 40|8@0+ (4.0,0.0) [0.0|1020.0] "kPa" Vector__XXX
+
+BO_ 1322 MSG_1322: 8 VOSP
+ SG_ Tyre_Pressure_RR : 16|8@0+ (4.0,0.0) [0.0|1020.0] "kPaG" Vector__XXX
+ SG_ Tyre_Pressure_FR : 24|8@0+ (4.0,0.0) [0.0|1020.0] "kPaG" Vector__XXX
+ SG_ Tyre_Pressure_RL : 32|8@0+ (4.0,0.0) [0.0|1020.0] "kPaG" Vector__XXX
+ SG_ Tyre_Pressure_FL : 40|8@0+ (4.0,0.0) [0.0|1020.0] "kPaG" Vector__XXX
